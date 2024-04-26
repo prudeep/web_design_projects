@@ -1,0 +1,142 @@
+ 
+ #topbar1{
+    margin-left: 60%;
+    margin-top: 1%;
+  }
+  
+ #nav1{
+ margin-left: -1%;
+ }
+ 
+  .navbar {
+     position: relative;
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: space-between;
+   }
+ 
+   .navbar-nav{
+     display: flex;
+     margin: 1.5%;
+     font-size: 1.5rem;
+     align-items: center;
+     flex-direction: column;
+   }
+   .mr-auto, .mx-auto{
+     margin-right: auto;
+   }
+   .nav-item:hover{
+     background: #FCA625;
+   }
+   .section-c{
+     color: #FCA625;
+   }
+   .display-5{
+     font-size: 3.5rem;
+     font-weight: 300;
+     line-height: 1.2;
+   }
+   
+   @media(min-width:992px){
+     .navbar-expand-lg, .navbar-collapse{
+       display: flex;
+       flex-basis: auto;
+     }
+   }  
+     #cat-h5, #dog1-h5, #dog2-h5{
+         zoom: 300%;
+         top: 0%;
+         bottom: auto;
+     }
+     
+     #dog2-h5{
+         color: #000;
+         zoom: 200%;
+     }
+     #dog1-h5{
+         color: #000;
+         zoom: 180%;
+     }
+ #form-div {
+     background-color: #fca625;
+     padding: 7%;
+     padding-top: 3%;
+   }
+   #on-vacation-h6 {
+     color: #26945f;
+     position: absolute;
+     width: 283px;
+     height: 35px;
+   
+     font-family: "Roboto";
+     font-style: normal;
+     font-weight: 400;
+     font-size: 30px;
+     line-height: 35px;
+     text-align: center;
+   }
+   #booking-p {
+     position: absolute;
+     font-family: "Roboto";
+     font-style: normal;
+     font-weight: 400;
+     font-size: 18px;
+     line-height: 21px;
+     height: 60px;
+   }
+   #your-pet,
+   #book-h1 {
+     position: absolute;
+     width: 552px;
+     height: 68px;
+     font-family: "Roboto";
+     font-style: normal;
+     font-weight: 800;
+     font-size: 64px;
+     line-height: 75px;
+   }
+   #your-pet {
+     color: #fca625;
+   }
+   #exampleInputName1,
+   #exampleInputEmail1,
+   #exampleInputName2,
+   #exampleInputName3,
+   #exampleInputName4,
+   #exampleSelect1,
+   #btn-submit {
+     width: 400px;
+     padding: 3%;
+   }
+   #form-services-div {
+     padding: 4%;
+     background-color: #e5e5e5;
+   }
+   #sit,
+   #walk,
+   #board,
+   #groom {
+     padding: 3%;
+     text-align: center;
+     font-size: smaller;
+   }
+   
+ section#services a {
+   text-decoration: none;
+ }
+  .display-4 {
+    font-size: 3.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+
+ }
+  @media (max-width: 1200px) {
+    .display-4 {
+      font-size: calc(1.475rem + 2.7vw) ;
+    }
+  }
+ 
+  #intouch, #links {
+   padding-left: 20%;
+ }
